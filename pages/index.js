@@ -22,11 +22,11 @@ export default function Home() {
       </Head>
 
     <main className="leading-relaxedtracking-normal bg-cover h-screen w-screen bg-gray-900 items-center ">
-      <div className="container pt-24 md:pt-36 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+      <div className="container md:pt-36 mx-auto flex flex-wrap flex-col md:flex-row items-center">
         <div className="flex flex-col w-full xl:w-2/5 justify-center lg:items-start overflow-y-hidden">
         <Fade delay={200}>
           <h1 className="my-4 text-6xl md:text-7xl opacity-100 font-bold leading-relaxed text-center md:text-left mb-4 md:mb-10 pt-6">
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-sky-500 via-blue-500 to-sky-500">Jordan Twiggs</span>
+            <span className="bg-clip-text text-transparent bg-gradient-to-r md:px-0  from-sky-500 via-blue-500 to-sky-500">Jordan Twiggs</span>
           </h1>
           </Fade>
           <Fade delay={400}>
