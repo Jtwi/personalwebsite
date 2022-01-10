@@ -26,12 +26,12 @@ export default function Home() {
         <div className="flex flex-col w-full xl:w-2/5 justify-center lg:items-start overflow-y-hidden">
         <Fade delay={200}>
           <h1 className="my-4 text-6xl md:text-7xl opacity-100 font-bold leading-relaxed text-center md:text-left mb-4 md:mb-10 pt-6">
-            <span className="bg-clip-text text-transparent bg-gradient-to-r md:px-0  from-sky-500 via-blue-500 to-sky-500">Jordan Twiggs</span>
+            <span className="bg-clip-text text-transparent bg-gradient-to-r md:px-0 from-sky-500 via-blue-500 to-sky-500">Jordan Twiggs</span>
           </h1>
           </Fade>
           <Fade delay={400}>
           <p className="leading-relaxed text-white font-medium text-2xl md:text-3xl md:mb-8 mb-4 text-center md:text-left md:px-0 px-6">
-          When I was 17 I started design and development work for a hand full of local businesses. Six years later I now focus on Business Development and Management, Marketing and Frontend Development for worldwide businesses. 
+          When I was 17 I started design and development work for a hand full of local businesses. Five years later I now focus on Business Development and Management, Marketing and Frontend Development for worldwide businesses. 
           </p>
           </Fade>
           <div className="flex md:flex-row justify-center">
@@ -56,6 +56,13 @@ export default function Home() {
             <a className="inline-block text-sky-500 no-underline hover:text-blue-500 hover:text-underline text-center h-10 p-3  md:h-auto  transform hover:scale-125 duration-200 ease-in-out" href="mailto:hello@jtwi.me">
               <svg className="fill-current h-12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
               <path d="M12 12.713l-11.985-9.713h23.97l-11.985 9.713zm0 2.574l-12-9.725v15.438h24v-15.438l-12 9.725z"/>
+              </svg>
+            </a>
+            </div>
+            <div>
+            <a className="inline-block text-sky-500 no-underline hover:text-blue-500 hover:text-underline text-center h-10 p-3  md:h-auto  transform hover:scale-125 duration-200 ease-in-out" href="https://drive.google.com/file/d/1mG26tx2WXjIGv5mk9qTjzioeJ5iTAgkx/view?usp=sharing">
+              <svg className="fill-current h-12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+              <path d="M3 24h19v-23h-1v22h-18v1zm17-24h-18v22h18v-22zm-3 17h-12v1h12v-1zm0-3h-12v1h12v-1zm0-3h-12v1h12v-1zm-7.348-3.863l.948.3c-.145.529-.387.922-.725 1.178-.338.257-.767.385-1.287.385-.643 0-1.171-.22-1.585-.659-.414-.439-.621-1.04-.621-1.802 0-.806.208-1.432.624-1.878.416-.446.963-.669 1.642-.669.592 0 1.073.175 1.443.525.221.207.386.505.496.892l-.968.231c-.057-.251-.177-.449-.358-.594-.182-.146-.403-.218-.663-.218-.359 0-.65.129-.874.386-.223.258-.335.675-.335 1.252 0 .613.11 1.049.331 1.308.22.26.506.39.858.39.26 0 .484-.082.671-.248.187-.165.322-.425.403-.779zm3.023 1.78l-1.731-4.842h1.06l1.226 3.584 1.186-3.584h1.037l-1.734 4.842h-1.044z"/>
               </svg>
             </a>
             </div>
