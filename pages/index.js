@@ -25,8 +25,8 @@ export default function Home() {
           <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center ">
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <Fade delay={350}>
-              <h1 className="my-4 text-6xl md:text-7xl opacity-100 font-bold leading-relaxed text-center md:text-left mb-4 md:mb-10 ">
-                <span className="bg-clip-text text-transparent bg-gradient-to-r md:px-0 from-sky-500 via-blue-500 to-sky-500">Jordan Twiggs</span>
+              <h1 className="my-4 text-6xl md:text-7xl opacity-100 font-bold leading-relaxed text-center md:text-left mb-4 md:mb-10 bg-clip-text text-transparent bg-gradient-to-r md:px-0 from-sky-500 via-blue-500 to-sky-500">
+                Jordan Twiggs
               </h1>
             </Fade>
             <Fade delay={400}>
