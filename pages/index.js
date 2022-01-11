@@ -5,7 +5,7 @@ import { Fade } from "react-awesome-reveal";
 
 export default function Home() {
   return (
-    <section className="bg-gray-900 h-screen w-screen">
+    <section className="bg-gray-900 bg-cover min-h-screen min-w-screen">
       <Head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -63,11 +63,13 @@ export default function Home() {
             </Fade>  
               </div>
             </div>
+            <section className="bg-gray-900 bg-cover">
             <div className="lg:max-w-2xl md:pt-4 pt-0 lg:w-full md:w-1/2 max-w-3xl bg-gray-900 w-6/6">
             <Fade delay={400}>
             <Image eager src={'/pngmoji.png'} width={'750'} height={'750'} alt="Nest Pro"/>
             </Fade>  
             </div>
+            </section>
           </div>
         </section>
 
