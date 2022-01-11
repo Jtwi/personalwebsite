@@ -25,10 +25,10 @@ export default function Home() {
           <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center ">
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <Fade delay={350}>
-              <h1 className="my-4 text-6xl md:text-7xl opacity-100 font-bold leading-relaxed text-center md:text-left mb-4 md:mb-10 bg-clip-text text-transparent bg-gradient-to-r md:px-0 from-sky-500 via-blue-500 to-sky-500">Jordan Twiggs</h1>
+              <h1 className=" text-6xl md:text-7xl opacity-100 font-bold leading-relaxed text-center md:text-left mb-4 md:mb-10 bg-clip-text text-ellipsis text-transparent bg-gradient-to-r md:px-0 from-sky-500 via-blue-500 to-sky-500 pb-3">Jordan Twiggs</h1>
             </Fade>
             <Fade delay={400}>
-              <p className="leading-relaxed text-white font-medium text-2xl sm:text-2xl md:text-2xl mb-4 md:mb-10">When I was 17 I started design and development work for a hand full of local businesses. Five years later I now focus on Business Development and Management, Marketing and Frontend Development for worldwide businesses.</p>
+              <p className="leading-relaxed text-white font-medium text-2xl sm:text-2xl md:text-2xl mb-6 md:mb-10">When I was 17 I started design and development work for a hand full of local businesses. Five years later I now focus on Business Development and Management, Marketing and Frontend Development for worldwide businesses.</p>
             </Fade>  
               <div className="flex justify-center">
             <Fade delay={400}>
@@ -63,7 +63,7 @@ export default function Home() {
             </Fade>  
               </div>
             </div>
-            <div className="lg:max-w-2xl md:pt-4 pt-0 lg:w-full md:w-1/2 max-w-3xl w-6/6">
+            <div className="lg:max-w-2xl md:pt-4 pt-0 lg:w-full md:w-1/2 max-w-3xl bg-gray-900 w-6/6">
             <Fade delay={400}>
             <Image eager src={'/pngmoji.png'} width={'750'} height={'750'} alt="Nest Pro"/>
             </Fade>  
