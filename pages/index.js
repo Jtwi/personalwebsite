@@ -28,7 +28,7 @@ export default function Home() {
               <h1 className=" text-6xl md:text-7xl opacity-100 font-bold leading-relaxed text-center md:text-left mb-4 md:mb-10 bg-clip-text text-ellipsis text-transparent bg-gradient-to-r md:px-0 from-sky-500 via-blue-500 to-sky-500 pb-3">Jordan Twiggs</h1>
             </Fade>
             <Fade delay={400}>
-              <p className="leading-relaxed text-white font-medium text-2xl sm:text-2xl md:text-2xl mb-6 md:mb-10">When I was 17 I started design and development work for a hand full of local businesses. Five years later I now focus on Business Development and Management, Marketing and Frontend Development for worldwide businesses.</p>
+              <p className="leading-relaxed text-white font-medium text-2xl sm:text-2xl md:text-2xl mb-6 md:mb-10">When I was 17 I started design and development work for a handful of local businesses. Five years later I now focus on Business Development and Management, Marketing and Frontend Development for worldwide businesses.</p>
             </Fade>  
               <div className="flex justify-center">
             <Fade delay={400}>
